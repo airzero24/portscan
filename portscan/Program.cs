@@ -32,7 +32,7 @@ namespace portscan
         {
             if(args.Length != 2)
             {
-                Console.WriteLine("[-] No arguments supplied");
+                Console.WriteLine("[-] Incorrect arguments supplied");
                 Help();
                 Environment.Exit(1);
             }
